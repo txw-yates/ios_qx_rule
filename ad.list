@@ -72,3 +72,113 @@ HOST-SUFFIX,log.snssdk.com,Advertising
 HOST-SUFFIX,temai.snssdk.com,Advertising
 HOST-SUFFIX,xlog.snssdk.com,Advertising
 HOST-WILDCARD,*.ctobsnssdk.com,Advertising
+# > ByteDance
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com, reject
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com, reject
+DOMAIN,ad.toutiao.com, reject
+DOMAIN,dsp.toutiao.com, reject
+DOMAIN,pangolin.snssdk.com, reject
+
+
+# telegram
+HOST-SUFFIX,awkwardtelegram.com,Advertising
+HOST-SUFFIX,telegram-china.org,Advertising
+HOST-SUFFIX,telegram-cn.org,Advertising
+HOST-SUFFIX,telegram-vip.com,Advertising
+HOST-SUFFIX,telegramcn.org,Advertising
+HOST-SUFFIX,telegramim.org,Advertising
+HOST-SUFFIX,telegramos.org,Advertising
+HOST-SUFFIX,telegramsit.com,Advertising
+HOST-SUFFIX,telegramspun.com,Advertising
+HOST-SUFFIX,telegramstr.com,Advertising
+HOST-SUFFIX,telegramsvip.com,Advertising
+HOST-SUFFIX,telegramv.com,Advertising
+HOST-SUFFIX,telegramyy.com,Advertising
+
+
+# nga
+# HOST-SUFFIX,market.178.com,Advertising
+# HOST-SUFFIX,tuiguang.178.com,Advertising
+
+# 喜马拉雅
+HOST,adsehera.ximalaya.com,Advertising
+HOST,mobwsa.ximalaya.com,Advertising
+HOST,adbehavior.ximalaya.com,Advertising
+HOST,adwbs.ximalaya.com,Advertising
+HOST,dns.ximalaya.com,Advertising
+HOST-SUFFIX,ad.test.ximalaya.com,Advertising
+HOST-SUFFIX,ad.ximalaya.com,Advertising
+HOST-SUFFIX,adbehavior.wsa.ximalaya.com,Advertising
+HOST-SUFFIX,adbs.ximalaya.com,Advertising
+HOST-SUFFIX,adse.test.ximalaya.com,Advertising
+HOST-SUFFIX,adse.wsa.ximalaya.com,Advertising
+HOST-SUFFIX,adse.ximalaya.com,Advertising
+HOST-SUFFIX,adsebs.ximalaya.com,Advertising
+HOST-SUFFIX,adweb.test.ximalaya.com,Advertising
+HOST-SUFFIX,adweb.ximalaya.com,Advertising
+HOST-SUFFIX,linkeye.ximalaya.com,Advertising
+HOST-SUFFIX,location.ximalaya.com,Advertising
+HOST-SUFFIX,xdcs-collector.ximalaya.com,Advertising
+
+# > Google
+DOMAIN-SUFFIX,doubleclick.net, reject
+DOMAIN-SUFFIX,googleadservices.com, reject
+DOMAIN-SUFFIX,googleadsserving.cn, reject
+DOMAIN-SUFFIX,googlesyndication.com, reject
+DOMAIN-SUFFIX,googletagservices.com, reject
+DOMAIN,ads.youtube.com, reject
+
+# > Hupu
+DOMAIN,adx.hupu.com, reject
+DOMAIN,adx-api.hupu.com, reject
+DOMAIN,goblin.hupu.com, reject
+
+# > Sina
+DOMAIN-SUFFIX,alitui.weibo.com, reject
+DOMAIN-SUFFIX,beacon.sina.com.cn, reject
+DOMAIN,adimg.uve.weibo.com, reject
+DOMAIN,adimg.vue.weibo.com, reject
+DOMAIN,u1.img.mobile.sina.cn, reject
+DOMAIN,sax.sina.com.cn, reject
+DOMAIN,saxs.sina.com.cn, reject
+DOMAIN,saxn.sina.com.cn, reject
+
+# --- (Tencent) ---
+DOMAIN-SUFFIX,e.qq.com, reject
+DOMAIN-SUFFIX,gdt.qq.com, reject
+DOMAIN-SUFFIX,l.qq.com, reject
+DOMAIN,adsmind.apdcdn.tc.qq.com, reject
+DOMAIN,adsmind.gdtimg.com, reject
+DOMAIN,adsmind.tc.qq.com, reject
+DOMAIN,adsmind.ugdtimg.com, reject
+DOMAIN,livep.l.t002.ottcn.com, reject
+DOMAIN,pgdt.gtimg.cn, reject
+DOMAIN,pgdt.gtimg.com, reject
+DOMAIN,pgdt.ugdtimg.com, reject
+DOMAIN,splashqqlive.gtimg.com, reject
+DOMAIN,wa.gtimg.com, reject
+# DOMAIN,wxsnsdy.wxs.qq.com, reject
+# DOMAIN,wxsnsdythumb.wxs.qq.com, reject
+
+# > TongHuaShun
+DOMAIN,adm.10jqka.com.cn, reject
+DOMAIN,stat.10jqka.com.cn, reject
+
+# > Xiaohongshu
+DOMAIN,ads-img-qc.xhscdn.com, reject
+DOMAIN,ads-video-al.xhscdn.com, reject
+DOMAIN,ads-video-qc.xhscdn.com, reject
+DOMAIN,t-ads.xiaohongshu.com, reject
+
+# > Zhihu
+# USER-AGENT,AVOS*
+DOMAIN,appcloud2.in.zhihu.com, reject
+DOMAIN,mqtt.zhihu.com, reject
+DOMAIN,sugar.zhihu.com, reject
+DOMAIN,118.89.204.198, reject
+## IP-CIDR,118.89.204.198/32,no-resolve
+## IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+
+##### pornhub.com  
+DOMAIN-SUFFIX,etahub.com, reject
+DOMAIN-SUFFIX,evtubescms.phncdn.com, reject
