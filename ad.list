@@ -208,3 +208,6 @@ HOST-SUFFIX,cc.dace.hupu.com,Advertising
 HOST-SUFFIX,goblin.hupu.com,Advertising
 HOST-SUFFIX,orz.hupu.com,Advertising
 HOST,t1.hoopchina.com.cn,Advertising
+
+# 彩云
+HOST-SUFFIX,ad.caiyunapp.com,Advertising
