@@ -194,3 +194,17 @@ HOST-SUFFIX,logs.amap.com,Advertising
 HOST-SUFFIX,optimus-ads.amap.com,Advertising
 HOST-SUFFIX,optimus-ads.amap.com.w.alikunlun.com,Advertising
 HOST-SUFFIX,page.amap.com,Advertising
+
+# 虎扑、识货
+HOST,ccdace.hupu.com,Advertising
+HOST,coothupu.net,Advertising
+HOST,hd.hupu.com,Advertising
+HOST,shence.hupu.com,Advertising
+HOST-SUFFIX,hupu-nba.com,Advertising
+HOST-SUFFIX,hupuzhibo.cn,Advertising
+HOST-SUFFIX,adx-api.hupu.com,Advertising
+HOST-SUFFIX,adx.hupu.com,Advertising
+HOST-SUFFIX,cc.dace.hupu.com,Advertising
+HOST-SUFFIX,goblin.hupu.com,Advertising
+HOST-SUFFIX,orz.hupu.com,Advertising
+HOST,t1.hoopchina.com.cn,Advertising
