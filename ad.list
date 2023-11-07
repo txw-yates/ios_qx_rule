@@ -1,0 +1,11 @@
+### 支付宝
+HOST,ynuf.alipay.com,Advertising
+HOST-SUFFIX,loggw-ex.alipay.com,Advertising
+HOST-SUFFIX,loggw-exsdk.alipay.com,Advertising
+HOST-SUFFIX,loggw.alipaydns.com,Advertising
+HOST-SUFFIX,openmonitor.alipay-eco.com,Advertising
+HOST-SUFFIX,openmonitor.alipay.com,Advertising
+HOST-SUFFIX,alipay.dajiadou6.com,Advertising
+HOST-SUFFIX,alipaylog.com,Advertising
+HOST-SUFFIX,amdc.alipay.com,Advertising
+HOST-SUFFIX,collect.alipay.com,Advertising
