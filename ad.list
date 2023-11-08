@@ -31,8 +31,11 @@ HOST,log-va.tiktokv.com,Advertising
 
 # bytedance
 HOST-SUFFIX,dm.bytedance.com,Advertising
+host, ad.zijieapi.com, reject
 ## 抖音
 HOST-SUFFIX,test-www.douyin.com,Advertising
+host-keyword, p6-ad-sign.byteimg.com, reject
+host-keyword, p3.pstatp.com, reject
 ## snssdk
 HOST,abtest-ch.snssdk.com,Advertising
 HOST,gecko-hl.snssdk.com,Advertising
@@ -138,11 +141,6 @@ DOMAIN-SUFFIX,googlesyndication.com, reject
 DOMAIN-SUFFIX,googletagservices.com, reject
 DOMAIN,ads.youtube.com, reject
 
-# > Hupu
-DOMAIN,adx.hupu.com, reject
-DOMAIN,adx-api.hupu.com, reject
-DOMAIN,goblin.hupu.com, reject
-
 # > Sina
 DOMAIN-SUFFIX,alitui.weibo.com, reject
 DOMAIN-SUFFIX,beacon.sina.com.cn, reject
@@ -170,15 +168,11 @@ DOMAIN,wa.gtimg.com, reject
 # DOMAIN,wxsnsdy.wxs.qq.com, reject
 # DOMAIN,wxsnsdythumb.wxs.qq.com, reject
 
-# > TongHuaShun
+# > 同花顺
 DOMAIN,adm.10jqka.com.cn, reject
 DOMAIN,stat.10jqka.com.cn, reject
 
-# > Xiaohongshu
-DOMAIN,ads-img-qc.xhscdn.com, reject
-DOMAIN,ads-video-al.xhscdn.com, reject
-DOMAIN,ads-video-qc.xhscdn.com, reject
-DOMAIN,t-ads.xiaohongshu.com, reject
+
 
 # > Zhihu
 # USER-AGENT,AVOS*
@@ -186,8 +180,12 @@ DOMAIN,appcloud2.in.zhihu.com, reject
 DOMAIN,mqtt.zhihu.com, reject
 DOMAIN,sugar.zhihu.com, reject
 DOMAIN,118.89.204.198, reject
-## IP-CIDR,118.89.204.198/32,no-resolve
-## IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+USER-AGENT,AVOS*, reject
+host, appcloud.zhihu.com, reject
+host, appcloud2.in.zhihu.com, reject
+host, crash2.zhihu.com, reject
+IP-CIDR, 118.89.204.198/32, reject
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
 ##### pornhub.com  
 DOMAIN-SUFFIX,etahub.com, reject
@@ -204,6 +202,13 @@ HOST-SUFFIX,logs.amap.com,Advertising
 HOST-SUFFIX,optimus-ads.amap.com,Advertising
 HOST-SUFFIX,optimus-ads.amap.com.w.alikunlun.com,Advertising
 HOST-SUFFIX,page.amap.com,Advertising
+host-suffix, adiu.amap.com, reject
+host, aboard.apilocate.amap.com, reject
+host, apiinit.amap.com, reject
+host, icloud-amap.com, reject
+host-suffix, shouji.sougou.com, reject
+host-suffix, u51.me, reject
+
 
 # 虎扑、识货
 HOST,ccdace.hupu.com,Advertising
@@ -261,6 +266,13 @@ HOST-SUFFIX,shooter.m.jd.com,Advertising
 HOST-SUFFIX,stat.m.jd.com,Advertising
 HOST-SUFFIX,u-x.jd.com,Advertising
 HOST-SUFFIX,gia.jd.com,Advertising
+host-keyword, bdsp.x.jd.com, reject
+host-keyword, keplerapi.jd.com, reject
+host-keyword, mapi.m.jd.com, reject
+## 屏蔽DNS
+host, dns.jd.com, reject
+IP-CIDR, 101.124.19.122/32, reject
+IP6-CIDR, 2402:db40:5100:1011::5/128, reject
 
 # 1688
 HOST,cui.m.1688.com,Advertising
@@ -344,6 +356,8 @@ HOST-SUFFIX,unitacs.m.taobao.com,Advertising
 HOST-SUFFIX,w.m.taobao.com,Advertising
 HOST-SUFFIX,fourier.taobao.com,Advertising
 HOST-SUFFIX,tns.simba.taobao.com,Advertising
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, click.mz.simba.taobao.com, reject
 
 # 联通
 HOST,m1.ad.10010.com,Advertising
