@@ -219,3 +219,7 @@ HOST,ads-video-al.xhscdn.com,Advertising
 HOST,ads-video-qc.xhscdn.com,Advertising
 HOST-SUFFIX,apm-track.xiaohongshu.com,Advertising
 HOST-SUFFIX,t-ads.xiaohongshu.com,Advertising
+
+# 拼多多
+HOST,cmta.yangkeduo.com,Advertising
+HOST,ta.yangkeduo.com,Advertising
