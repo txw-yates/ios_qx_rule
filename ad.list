@@ -211,3 +211,11 @@ HOST,t1.hoopchina.com.cn,Advertising
 
 # 彩云
 HOST-SUFFIX,ad.caiyunapp.com,Advertising
+
+# 小红书
+HOST-SUFFIX,fengkongcloud.com,Advertising
+HOST,ads-img-qc.xhscdn.com,Advertising
+HOST,ads-video-al.xhscdn.com,Advertising
+HOST,ads-video-qc.xhscdn.com,Advertising
+HOST-SUFFIX,apm-track.xiaohongshu.com,Advertising
+HOST-SUFFIX,t-ads.xiaohongshu.com,Advertising
