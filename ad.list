@@ -223,3 +223,31 @@ HOST-SUFFIX,t-ads.xiaohongshu.com,Advertising
 # 拼多多
 HOST,cmta.yangkeduo.com,Advertising
 HOST,ta.yangkeduo.com,Advertising
+
+# 京东
+HOST-SUFFIX,cps.360buy.com,Advertising
+HOST-SUFFIX,atom-log.3.cn,Advertising
+HOST-SUFFIX,ad.3.cn,Advertising
+HOST,blackhole.m.jd.com,Advertising
+HOST,cc.m.jd.com,Advertising
+HOST,kepler.jd.com,Advertising
+HOST,orbit.jd.com,Advertising
+HOST,dns.jd.com,Advertising
+HOST,jrad.jd.com,Advertising
+HOST,mercury.jd.com,Advertising
+HOST-SUFFIX,ads-union.jd.com,Advertising
+HOST-SUFFIX,union.jd.com,Advertising
+HOST-SUFFIX,x.jd.com,Advertising
+HOST-SUFFIX,c-nfa.jd.com,Advertising
+HOST-SUFFIX,cm.jd.com,Advertising
+HOST-SUFFIX,du.jd.com,Advertising
+HOST-SUFFIX,im-x.jd.com,Advertising
+HOST-SUFFIX,img-x.jd.com,Advertising
+HOST-SUFFIX,jcm.jd.com,Advertising
+HOST-SUFFIX,jrclick.jd.com,Advertising
+HOST-SUFFIX,jzt.jd.com,Advertising
+HOST-SUFFIX,policy.jd.com,Advertising
+HOST-SUFFIX,shooter.m.jd.com,Advertising
+HOST-SUFFIX,stat.m.jd.com,Advertising
+HOST-SUFFIX,u-x.jd.com,Advertising
+HOST-SUFFIX,gia.jd.com,Advertising
