@@ -355,3 +355,16 @@ HOST,mdn.open.wo.cn,Advertising
 # 12306
 HOST-SUFFIX,ad.12306.cn,Advertising
 HOST-SUFFIX,ad.95306.cn,Advertising
+
+# 中国联通
+HOST-SUFFIX,adp.cnki.net,Advertising
+HOST,mbads.paas.cmbchina.com,Advertising
+
+# 建设银行
+HOST-SUFFIX,adv.ccb.com,Advertising
+
+# 豆瓣
+HOST-SUFFIX,erebor.douban.com,Advertising
+HOST,at1.doubanio.com,Advertising
+HOST,at2.doubanio.com,Advertising
+HOST-SUFFIX,ad.doubanio.com,Advertising
