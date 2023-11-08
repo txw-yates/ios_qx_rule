@@ -29,9 +29,11 @@ HOST-SUFFIX,mcs.us.tiktokv.com,Advertising
 HOST-SUFFIX,mon.us.tiktokv.com,Advertising
 HOST,log-va.tiktokv.com,Advertising
 
-###### bytedance
+# bytedance
 HOST-SUFFIX,dm.bytedance.com,Advertising
+## 抖音
 HOST-SUFFIX,test-www.douyin.com,Advertising
+## snssdk
 HOST,abtest-ch.snssdk.com,Advertising
 HOST,gecko-hl.snssdk.com,Advertising
 HOST,gecko-lq.snssdk.com,Advertising
@@ -72,12 +74,25 @@ HOST-SUFFIX,log.snssdk.com,Advertising
 HOST-SUFFIX,temai.snssdk.com,Advertising
 HOST-SUFFIX,xlog.snssdk.com,Advertising
 HOST-WILDCARD,*.ctobsnssdk.com,Advertising
-# > ByteDance
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com, reject
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com, reject
-DOMAIN,ad.toutiao.com, reject
-DOMAIN,dsp.toutiao.com, reject
-DOMAIN,pangolin.snssdk.com, reject
+## 西瓜
+HOST-KEYWORD,ad.ixigua.com,Advertising
+## pstatp
+HOST,sf3-ttcdn-tos.pstatp.com,Advertising
+HOST,sf6-ttcdn-tos.pstatp.com,Advertising
+HOST-SUFFIX,dm.pstatp.com,Advertising
+HOST-SUFFIX,pb3.pstatp.com,Advertising
+## 头条
+HOST-SUFFIX,toutiao.2haha.com,Advertising
+HOST-SUFFIX,toutiao.jxnews.com.cn,Advertising
+HOST-SUFFIX,track.toutiao.com,Advertising
+HOST,adshare.toutiao.com,Advertising
+HOST-SUFFIX,zhanzhang.toutiao.com,Advertising
+HOST-SUFFIX,ad.toutiao.com,Advertising
+HOST-SUFFIX,dm.toutiao.com,Advertising
+HOST-SUFFIX,dsp.toutiao.com,Advertising
+HOST-SUFFIX,nativeapp.toutiao.com,Advertising
+HOST-SUFFIX,partner.toutiao.com,Advertising
+HOST-SUFFIX,sm.toutiao.com,Advertising
 
 
 # telegram
@@ -94,11 +109,6 @@ HOST-SUFFIX,telegramstr.com,Advertising
 HOST-SUFFIX,telegramsvip.com,Advertising
 HOST-SUFFIX,telegramv.com,Advertising
 HOST-SUFFIX,telegramyy.com,Advertising
-
-
-# nga
-# HOST-SUFFIX,market.178.com,Advertising
-# HOST-SUFFIX,tuiguang.178.com,Advertising
 
 # 喜马拉雅
 HOST,adsehera.ximalaya.com,Advertising
