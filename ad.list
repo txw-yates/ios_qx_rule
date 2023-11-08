@@ -344,3 +344,14 @@ HOST-SUFFIX,unitacs.m.taobao.com,Advertising
 HOST-SUFFIX,w.m.taobao.com,Advertising
 HOST-SUFFIX,fourier.taobao.com,Advertising
 HOST-SUFFIX,tns.simba.taobao.com,Advertising
+
+# 联通
+HOST,m1.ad.10010.com,Advertising
+HOST-SUFFIX,exp.17wo.cn,Advertising
+HOST-SUFFIX,wo.iuni.com.cn,Advertising
+HOST,id.mail.wo.cn,Advertising
+HOST,mdn.open.wo.cn,Advertising
+
+# 12306
+HOST-SUFFIX,ad.12306.cn,Advertising
+HOST-SUFFIX,ad.95306.cn,Advertising
