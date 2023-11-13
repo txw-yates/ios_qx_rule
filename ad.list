@@ -382,3 +382,26 @@ HOST-SUFFIX,erebor.douban.com,Advertising
 HOST,at1.doubanio.com,Advertising
 HOST,at2.doubanio.com,Advertising
 HOST-SUFFIX,ad.doubanio.com,Advertising
+
+# > 交管12123
+host-suffix, v3.fstats.xyz, reject
+host-suffix, wss.haoyundmn.com, reject
+host-suffix, new.xiongzhangad.com, reject
+host-suffix, alexametrics.com, reject
+host-keyword, in-page-push, reject
+
+# > 美团
+host, flowplus.meituan.net, reject
+host-suffix, analytics.meituan.net, reject
+host-suffix, meituan.xn--io0a7i, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, report.meituan.com, reject
+host-suffix, wmlog.meituan.com, reject
+
+# > 民生银行
+host-keyword, cm-10-134.getui.com, reject
+host-keyword, sdk.open.talk.getui.com, reject
+host-keyword, cm-10-35.getui.com, reject
+host-keyword, c-hzgt2.getui.com, reject
+host-suffix, sdk.open.talk.igexin.com, reject
