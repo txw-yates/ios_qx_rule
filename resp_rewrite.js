@@ -4,7 +4,7 @@ function modifyMain(url, data) {
       let data = JSON.parse(data);
       data["data"] = "[]"
       return JSON.stringify(data);
-    } cache (error) {
+    } catch (error) {
       console.log(`红宝书广告, 出现异常: ` + error);
     }
     return data
@@ -15,7 +15,7 @@ function modifyMain(url, data) {
       data["IndexAd"] = "[]";
       data["Advert"] = "[]";
       return JSON.stringify(data);
-    } cache (error) {
+    } catch (error) {
       console.log(`开盘啦，首页广告位置, 出现异常: ` + error);
     }
     return data
