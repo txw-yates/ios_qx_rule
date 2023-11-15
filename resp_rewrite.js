@@ -1,7 +1,7 @@
 function modifyMain(url, str) {
   if(url.indexOf('/product/list') > -1) { // 相关过滤，红宝书广告
     try {
-      let data = JSON.parse(data);
+      let data = JSON.parse(str);
       data["data"] = []
       return JSON.stringify(data);
     } catch (error) {
@@ -10,7 +10,7 @@ function modifyMain(url, str) {
     return str
   } else if(url.indexOf('/w1/api/index.php') > -1) { // 开盘啦，首页广告位置
     try {
-      let data = JSON.parse(data);
+      let data = JSON.parse(str);
       data["List"] = [];
       data["IndexAd"] = [];
       data["Advert"] = [];
