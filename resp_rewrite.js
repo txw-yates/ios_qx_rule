@@ -11,8 +11,12 @@ function modifyMain(url, str) {
   } else if(url.indexOf('/w1/api/index.php') > -1) { // 开盘啦，首页广告位置
     try {
       let data = JSON.parse(str);
-      data["List"] = [];
-      data["IndexAd"] = [];
+      if data["IndexAd"] != undefined {
+	data["List"] = [];
+        data["IndexAd"] = [];
+	data["Ad_1"] = [];
+	data["Ad_2] = [];
+      }
       data["Advert"] = [];
       return JSON.stringify(data);
     } catch (error) {
