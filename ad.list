@@ -405,3 +405,9 @@ host-keyword, sdk.open.talk.getui.com, reject
 host-keyword, cm-10-35.getui.com, reject
 host-keyword, c-hzgt2.getui.com, reject
 host-suffix, sdk.open.talk.igexin.com, reject
+
+# > 财新
+host-suffix, promote.caixin.com, reject
+host-suffix, apollo.caixin.com, reject
+host-suffix, gg.caixin.com, reject
+host-suffix, logstat.caixin.com, reject
