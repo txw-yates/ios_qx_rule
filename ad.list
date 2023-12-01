@@ -1,3 +1,15 @@
+# 广告联盟
+HOST-SUFFIX, miaozhen.com, REJECT
+HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
+HOST-KEYWORD, -tos.pstatp.com, REJECT
+HOST-KEYWORD, asiad.byteactivity, REJECT
+HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
+HOST-KEYWORD, pangolin.snssdk.com, REJECT
+HOST-KEYWORD, pglstatp-toutiao, REJECT
+HOST-KEYWORD, video-cn.snssdk.com, REJECT
+HOST-KEYWORD, volcvod.com, REJECT
+HOST-KEYWORD, volceapplog.com, REJECT
+
 ### 支付宝
 HOST,ynuf.alipay.com,Advertising
 HOST-SUFFIX,loggw-ex.alipay.com,Advertising
@@ -31,11 +43,13 @@ HOST,log-va.tiktokv.com,Advertising
 
 # bytedance
 HOST-SUFFIX,dm.bytedance.com,Advertising
-host, ad.zijieapi.com, reject
+host, ad.zijieapi.com, Advertising
+# > 懂车帝
+host-keyword, p3-pack.byteimg.com, Advertising
+host-keyword, p6-pack.byteimg.com, Advertising
 ## 抖音
-HOST-SUFFIX,test-www.douyin.com,Advertising
-host-keyword, p6-ad-sign.byteimg.com, reject
-host-keyword, p3.pstatp.com, reject
+host-keyword, bds.snssdk.com, Advertising
+host-keyword, p3.pstatp.com, Advertising
 ## snssdk
 HOST,abtest-ch.snssdk.com,Advertising
 HOST,gecko-hl.snssdk.com,Advertising
@@ -46,7 +60,6 @@ HOST,sgsnssdk.com.edgekey.net,Advertising
 HOST,toutiao-frontier.snssdk.com,Advertising
 HOST,toblog.snssdk.com,Advertising
 HOST,ug.snssdk.com,Advertising
-HOST-SUFFIX,bds.snssdk.com,Advertising
 HOST-SUFFIX,ctobsnssdk.com,Advertising
 HOST-SUFFIX,dm.isnssdk.com,Advertising
 HOST-SUFFIX,h5.isnssdk.com,Advertising
@@ -63,7 +76,6 @@ HOST-SUFFIX,mcs.snssdk.com,Advertising
 HOST-SUFFIX,mon.isnssdk.com,Advertising
 HOST-SUFFIX,mon.snssdk.com,Advertising
 HOST-SUFFIX,open.isnssdk.com,Advertising
-HOST-SUFFIX,pangolin.snssdk.com,Advertising
 HOST-SUFFIX,pangolin16.isnssdk.com,Advertising
 HOST-SUFFIX,pangolin16.sgsnssdk.com,Advertising
 HOST-SUFFIX,smr.snssdk.com,Advertising
