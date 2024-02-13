@@ -6,7 +6,7 @@
 # USER-AGENT: 4
 # TOTAL: 5
 HOST-SUFFIX,music.youtube.com,YouTubeMusic
-HOST-SUFFIX,googlevideo.com,YouTubeMusic
+#HOST-SUFFIX,googlevideo.com,YouTubeMusic
 USER-AGENT,*YouTubeMusic*,YouTubeMusic
 USER-AGENT,*com.google.ios.youtubemusic*,YouTubeMusic
 USER-AGENT,YouTubeMusic*,YouTubeMusic
