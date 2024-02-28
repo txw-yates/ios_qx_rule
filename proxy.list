@@ -1,0 +1,5 @@
+# copilot代理
+HOST-SUFFIX, msn.com, proxy
+HOST-SUFFIX, bing.com, proxy
+HOST-SUFFIX, microsoftapp.net, proxy
+#HOST-SUFFIX microsoft.com, proxy
