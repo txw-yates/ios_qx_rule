@@ -423,3 +423,22 @@ host-suffix, promote.caixin.com, reject
 host-suffix, apollo.caixin.com, reject
 host-suffix, gg.caixin.com, reject
 host-suffix, logstat.caixin.com, reject
+
+# > QQ音乐去广告
+host-suffix,adstats.tencentmusic.com,reject
+host-suffix,ad.tencentmusic.com,reject
+host-suffix,adcdn.tencentmusic.com,reject
+host-suffix,adexpo.tencentmusic.com,reject
+host-suffix,adclick.tencentmusic.com,reject
+host-suffix,otheve.beacon.qq.com,reject
+host-suffix,monitor.music.qq.com,reject
+host-suffix,stat.y.qq.com,reject
+host-suffix,tmead.y.qq.com,reject
+host-suffix,oth.str.mdt.qq.com,reject
+host-suffix,h.trace.qq.com,reject
+host-suffix,tmead.y.qq.com,reject
+host-SUFFIX,imtmp.net,reject
+host-suffix,sdk.e.qq.com,reject
+host-suffix,p.l.qq.com,reject
+host-suffix,us.l.qq.com,reject
+host-suffix,tangram.e.qq.com,reject
