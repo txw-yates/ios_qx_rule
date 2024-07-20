@@ -442,3 +442,5 @@ host-suffix,sdk.e.qq.com,reject
 host-suffix,p.l.qq.com,reject
 host-suffix,us.l.qq.com,reject
 host-suffix,tangram.e.qq.com,reject
+
+IP-CIDR, 180.76.76.200/32, REJECT
