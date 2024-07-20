@@ -443,4 +443,5 @@ host-suffix,p.l.qq.com,reject
 host-suffix,us.l.qq.com,reject
 host-suffix,tangram.e.qq.com,reject
 
+# 贴吧屏蔽域名dns查询
 IP-CIDR, 180.76.76.200/32, REJECT
